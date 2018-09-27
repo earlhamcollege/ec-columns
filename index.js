@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'ec-column',
+  alias: 'ec-column',
   moogBundle: {
     modules: ['ec-one-column-widgets'],
     directory: 'lib/modules'
