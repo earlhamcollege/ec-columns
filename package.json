@@ -1,0 +1,24 @@
+{
+  "name": "ec-columns",
+  "version": "1.0.0",
+  "description": "Bundled Module with Column Widgets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/earlhamcollege/ec-columns.git"
+  },
+  "keywords": [
+    "apostrophe-cms",
+    "apostrophe",
+    "layouts"
+  ],
+  "author": "Brad Wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/earlhamcollege/ec-columns/issues"
+  },
+  "homepage": "https://github.com/earlhamcollege/ec-columns#readme"
+}
