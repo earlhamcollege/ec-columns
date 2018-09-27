@@ -1,0 +1,14 @@
+{% macro column(parent, name, imageSize) %}
+  {{ apos.area(parent, name, {
+    widgets: {
+      'apostrophe-rich-text': {
+        toolbar: [ 'Styles', 'Bold', 'Italic', 'Link', 'Unlink' ]
+      },
+      'apostrophe-images': {
+        size: imageSize
+      },
+      'apostrophe-video': {},
+      'ec-quote': {}
+    }
+  }) }}
+{% endmacro %}
