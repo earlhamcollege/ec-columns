@@ -1,6 +1,6 @@
 {
   "name": "ec-columns",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Bundled Module with Column Widgets",
   "main": "index.js",
   "scripts": {
