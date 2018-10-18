@@ -1,12 +1,12 @@
 {% import "ec-columns:macros/custom.html" as utils %}
 <div class="pure-g width-{{data.widget.layoutWidth}}">
-  <div data-ec-column-1 data-ec-column-first class="pure-u-1 {{data.widget.columnOneWidth}}">
+  <div data-ec-column-1 data-ec-column-first class="pure-u-1 {{data.widget.columnOneWidth}}" style="padding: {{data.widget.paddingOne |safe}};">
   {{ utils.column(data.widget, 'one', 'full') }}
   </div>
-  <div data-ec-column-2 class="pure-u-1 {{data.widget.columnTwoWidth}}">
+  <div data-ec-column-2 class="pure-u-1 {{data.widget.columnTwoWidth}}" style="padding: {{data.widget.paddingTwo |safe}};">
   {{ utils.column(data.widget, 'two', 'full') }}
   </div>
-  <div data-ec-column-3 data-ec-column-last class="pure-u-1 {{data.widget.columnThreeWidth}}">
+  <div data-ec-column-3 data-ec-column-last class="pure-u-1 {{data.widget.columnThreeWidth}}" style="padding: {{data.widget.paddingThree |safe}};">
   {{ utils.column(data.widget, 'three', 'full') }}
   </div>
 </div>
