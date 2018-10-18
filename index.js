@@ -7,6 +7,7 @@ module.exports = {
   },
 
   construct: function(self, options) {
+    self.play = function($widget, data, options) {};
     self.pushAsset('stylesheet', 'base-min');
     self.pushAsset('stylesheet', 'grids-min');
     self.pushAsset('stylesheet', 'grids-responsive-min');

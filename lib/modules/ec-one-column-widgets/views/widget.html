@@ -1,6 +1,6 @@
 {% import "ec-columns:macros/custom.html" as utils %}
 <div class="pure-g width-{{data.widget.layoutWidth}}">
-  <div class="pure-u-1 {{data.widget.columnOneWidth}}">
+  <div data-ec-column-1 data-ec-column-first data-ec-column-last class="pure-u-1 {{data.widget.columnOneWidth}}">
   {{ utils.column(data.widget, 'one', 'full') }}
   </div>
 </div>
