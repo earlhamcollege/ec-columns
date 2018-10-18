@@ -3,6 +3,7 @@
 	width: 600px;
 	column-count: 3;
 	left: -50%;
+	column-gap: 0;
 }
 
 [data-ec-wrapper] [data-ec-column-first],
@@ -12,6 +13,7 @@
 		column-count: 1;
 		width: min-content;
 		left: 0;
+		column-gap: 0;
 	}
 }
 
@@ -19,9 +21,23 @@
 	column-count: 1;
 }
 
+[data-apos-add-item*="ec-"] {
+	background-color: #6c2a38;
+	color: #FFF;
+
+	&:hover, &:focus {
+	color: #363B3B;
+	}
+}
+
 [data-apos-add-item='ec-one-column'],
 [data-apos-add-item='ec-two-column'],
 [data-apos-add-item='ec-three-column'],
 [data-apos-add-item='ec-four-column'] {
 	background-color: #f1f1f1;
+	color: #363B3B;
+}
+
+[data-apos-add-item*="apostrophe-"] {
+	background-color: #00BF9A;
 }
