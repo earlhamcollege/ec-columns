@@ -11,5 +11,6 @@ module.exports = {
     self.pushAsset('stylesheet', 'grids-min');
     self.pushAsset('stylesheet', 'grids-responsive-min');
     self.pushAsset('stylesheet', 'layouts');
+    self.pushAsset('stylesheet', 'user', 'user');
   }
 };
